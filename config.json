@@ -1,0 +1,39 @@
+{
+    "token": "TOKEN",
+
+    "owner": "TON ID",
+
+    "prefix": "+",
+
+    "logs": "📁・Ace logs",
+
+    "emojiAttention": "🚨",
+
+    "emojiValidé": "✔️",
+
+    "emojiWait": "⏳",
+
+    "networkVert": "🟢",
+
+    "networkRouge": "🔴",
+
+    "emojiON": "✅",
+
+    "emojiOFF": "❎",
+
+    "emojiVocal": "🔊",
+
+    "emojiMuted": "🔇",
+
+    "emojiDeaf": "🔉",
+
+    "blue": "CB0B0B",
+
+    "red": "CB0B0B",
+
+    "cooldownMessageTime": "3000",
+
+    "muteSpamTime": "3600000",
+
+    "linkMuteTime": "3600000"
+}

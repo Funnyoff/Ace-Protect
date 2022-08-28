@@ -1,0 +1,1009 @@
+{
+    "permsAdmin": "Vous n'avez pas la permissions `ADMINISTRATOR` pour faire cette commande !",
+    "botNoPerms": "Je n'ai pas la permission pour faire cette commande !",
+
+    "commands": {
+        "addemoji": {
+            "name": "addemoji",
+            "description": "Ajoute un émoji sur le Discord",
+            "aliases": ["ae"],
+            "usage": "addemoji <emoji> <nom>",
+            "perms": "`ADMINISTRATOR`"
+        },
+        "embed": {
+            "name": "embed",
+            "aliases": ["embed", "embedbuilder"],
+            "description": "création d'embed intéractif",
+            "usage": "embed",
+            "perms": "`ADMINISTRATOR`"
+        },
+        "logs": {
+            "name": "logs",
+            "description": "affiche les logs activés / désactivés du discord",
+            "aliases": ["logs"],
+            "usage": "logs",
+            "perms": "`ADMINISTRATOR`"
+        },
+        "massadd": {
+            "name": "massadd",
+            "aliases": ["massadd", "massa"],
+            "description": "Ajoute un rôle à tous les membres",
+            "usage": "massadd + <@&role>",
+            "perms": "`ADMINISTRATOR`"
+        },
+        "massremove": {
+            "name": "massremove",
+            "aliases": ["massremove", "masser"],
+            "description": "Retire un rôle à tous les membres",
+            "usage": "massremove + <@&role>",
+            "perms": "`ADMINISTRATOR`"
+        },
+        "rolereaction": {
+            "name": "rolereaction",
+            "description": "Cliquer sur un emoji afin d'avoir un rôle",
+            "aliases": ["rolereact", "rolereaction"],
+            "usage": "rolereaction",
+            "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+        },
+        "soutien-info": {
+        "name": "soutien-info",
+        "description": "Affiche les réglages de la commande soutien",
+        "aliases": ["soutien-info"],
+        "usage": "soutien",
+        "perms": "`ADMINISTRATOR`"
+    },
+    "help": {
+        "name": "help",
+        "description": "Envoie la liste des commandes",
+        "usage": "help",
+        "aliases": ["help", "h", "aide"],
+        "perms": "`SEND_MESSAGES`"
+    },
+    "security": {
+        "name": "security",
+        "description": "Affiche les sécurités du discord",
+        "aliases": ["secur", "security", "sec"],
+        "usage": "security",
+        "perms": "`ADMINISTRATOR`"
+    },
+    "vocal": {
+        "name": "vocal",
+        "aliases": ["voc", "vocal"],
+        "description": "Affiche le nombre de personne en vocal sur le discord",
+        "usage": "vocal",
+        "perms": "`ADMINISTRATOR`"
+    },
+    "color": {
+        "name": "color",
+        "aliases": ["setcolor"],
+        "description": "Choisis la couleur des embeds du bot",
+        "usage": "color <HEX>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "prefix": {
+        "name": "prefix",
+        "description": "Choisis un nouveau prefix",
+        "aliases": ["setprefix", "sp"],
+        "usage": "prefix + <prefix>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "sanction": {
+        "name": "sanction",
+        "aliases": ["sanction"],
+        "description": "Choisis la sanction des commandes de sécurité",
+        "usage": "sanction <ban | kick | derank>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "language": {
+        "name": "language",
+        "aliases": ["setlang", "lang"],
+        "description": "Choisis la langue du bot",
+        "usage": "language <fr | eng>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "ticket": {
+        "name": "ticket",
+        "description": "Envoie le message de ticket",
+        "aliases": ["ticket"],
+        "usage": "ticket",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "tempvocal": {
+        "name": "tempvocal",
+        "aliases": ["tempvoc", "tempvocal", "vocaltemp"],
+        "description": "Met en place le système de vocaux temporaire",
+        "usage": "tempvocal",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "soutien": {
+        "name": "soutien",
+        "aliases": ["soutien"],
+        "description": "Choisis le message et le rôle de la commande soutien",
+        "usage": "soutien",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "setup": {
+        "name": "setup",
+        "description": "Crée les catégories, channels et rôles necessaire au bon fonctionnement du bot",
+        "aliases": ["setup"],
+        "usage": "setup",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "setmuterole": {
+        "name": "setmuterole",
+        "aliases": ["setmuterole"],
+        "description": "Choisis le rôle muted",
+        "usage": "setmuterole <@&role>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "setlogs": {
+        "name": "setlogs",
+        "aliases": ["setlog", "setlogschannel"],
+        "description": "Choisis le salon logs du bot",
+        "usage": "setlogschannel <#channel>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "8ball": {
+        "name": "8ball",
+        "aliases": ["8ball"],
+        "description":"Répond à vos questions !",
+        "usage": "8ball + <question>",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "avatar": {
+        "name": "avatar",
+        "description": "Donne l'avatar de la personne mentionné",
+        "aliases": ["avatar", "pic"],
+        "usage": "pic + <@user>",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "poll": {
+        "name": "poll",
+        "description": "Crée un poll",
+        "aliases": ["poll"],
+        "usage": "poll + <message>",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "ban": {
+        "name": "ban",
+        "description": "Ban la personne mentionné",
+        "aliases": ["ban"],
+        "usage": "ban + <@user>",
+        "perms": "`BAN_MEMBERS`"
+    },
+    "clear": {
+        "name": "clear",
+        "aliases": ["purge", "clear"],
+        "description": "Clear les messages dans le channel",
+        "usage": "clear + number (n < 100)",
+        "perms": "`MANAGE_MESSAGES`"
+    },
+    "kick": {
+        "name": "kick",
+        "description": "kick la personne mentionné",
+        "aliases": ["kick"],
+        "usage": "kick + <@user>",
+        "perms": "`KICK_MEMBERS`"
+    },
+    "lock": {
+        "name": "lock",
+        "description": "Bloque le salon",
+        "aliases": ["lock"],
+        "usage": "lock",
+        "perms": "`MANAGE_CHANNELS`"
+    },
+    "mute": {
+        "name": "mute",
+        "description": "Mute la personne mentionné",
+        "aliases": ["mute"],
+        "usage": "mute + <@user> + <reason>",
+        "perms": "`MANAGE_MESSAGES`"
+    },
+    "nuke": {
+        "name": "nuke",
+        "aliases": ["renew", "crenew"],
+        "description": "Refait le salon",
+        "usage": "nuke",
+        "perms": "`MANAGE_CHANNELS`"
+    },
+    "resetwarn": {
+        "name": "resetwarns",
+        "aliases": ["rwarns"],
+        "usage": "rwarns <@user>",
+        "description": "Reset les avertissements d'un membre",
+        "perms": "`MANAGE_CHANNELS`"
+    },
+    "rolecheck": {
+        "name": "rolecheck",
+        "description": "Affiche le nombre de personne possedant un rôle",
+        "aliases": ["rolecheck", "rolec"],
+        "usage": "rolec + <@user>",
+        "perms": "`MENTION_EVERYONE`"
+    },
+    "warn": {
+        "name": "warn",
+        "usage": "warn <@user> <reason>",
+        "description": "Warn la personne mentionné",
+        "aliases": ["warn"],
+        "perms": "`MANAGE_MESSAGES`"
+    },
+    "unmute": {
+        "name": "unmute",
+        "description": "Unmute la personne",
+        "aliases": ["unmute"],
+        "usage": "unmute + <@user>",
+        "perms": "`MANAGE_MESSAGES`"
+    },
+    "unlock": {
+        "name": "unlock",
+        "description": "Débloque le channel",
+        "aliases": ["unlock", "ul"],
+        "usage": "unlock",
+        "perms": "`MANAGE_CHANNELS`"
+    },
+    "unban": {
+        "name": "unban",
+        "description": "Deban la personne mentionné",
+        "aliases": ["unban"],
+        "usage": "unban + <@id>",
+        "perms": "`BAN_MEMBERS`"
+    },
+    "tempmute": {
+        "name": "tempmute",
+        "description": "Tempmute la personne",
+        "aliases": ["tempmute"],
+        "usage": "tempmute + <@user> + <time> + <reason>",
+        "perms": "`MANAGE_MESSAGES`"
+    },
+    "whitelist": {
+        "name": "whitelist",
+        "description": "Affiche les commandes de whitelist",
+        "aliases": ["wl"],
+        "usage": "whitelist (affiche la liste des commandes)",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "owner": {
+        "name": "owner",
+        "description": "Ajout, suppression, list des utilisateurs owners",
+        "aliases": ["owner"],
+        "usage": "owner add | remove + <@user>",
+        "perms": "`OWNER (du Discord)`"
+    },
+    "wlu": {
+        "name": "wlu",
+        "description": "Ajout, suppression, list des utilisateurs whitelists",
+        "aliases": ["whitelistu", "wluser"],
+        "usage": "wlu add | remove + <@user>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "wlc": {
+        "name": "wlc",
+        "description": "Ajout, suppression, list des channels whitelists",
+        "aliases": ["whitelistc", "wlchannels"],
+        "usage": "wlc + add | remove + <@user>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    },
+    "botinfo": {
+        "name": "botinfo",
+        "aliases": ["botinfo", "bi"],
+        "description": "Permet d'avoir les informations sur le bot discord",
+        "usage": "botinfo",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "information": {
+        "name": "information",
+        "description": "Envoie les informations à propos du bot",
+        "aliases": ["info", "infos", "informations"],
+        "usage": "information",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "invite": {
+        "name": "invite",
+        "description": "Lien d'invitation du bot",
+        "aliases": ["add", "inv"],
+        "usage": "invite",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "ping": {
+        "name": "ping",
+        "aliases": ["ms", "ping"],
+        "description": "Envoie la latence du bot",
+        "usage": "ping",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "weather": {
+        "name": "weather",
+        "description": "Affiche les conditions climatique de la ville",
+        "aliases": ["weather"],
+        "usage": "weather + <ville>",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "warnings": {
+        "name": "warnings",
+        "description": "Affiche le nombre de warns de la personne mentionné",
+        "aliases": ["warnings"],
+        "usage": "warnings + <@user>",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "userinfo": {
+        "name": "userinfo",
+        "aliases": ["userinfo", "ui"],
+        "description": "Envoie les informations sur l'utilisateur mentionné (ou vous)",
+        "usage": "userinfo + <@user>",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "serverinfo": {
+        "name": "serverinfo",
+        "description": "Informations sur le serveur discord",
+        "aliases": ["serverinfo", "si"],
+        "usage": "serverinfo",
+        "perms": "`SEND_MESSAGES`"
+    },
+    "antiban": {
+        "name": "antiban",
+        "description": "Désactive / Active l'antiban",
+        "aliases": ["antiban"],
+        "usage": "antiban [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antiwordchoice": {
+        "name": "antiword",
+        "description": "Désactive / Active l'antiword",
+        "aliases": ["antiword"],
+        "usage": "antiword [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antirole": {
+        "name": "antirole",
+        "description": "Désactive / Active l'antirole",
+        "aliases": ["antirole"],
+        "usage": "antirole [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antibot": {
+        "name": "antibot",
+        "description": "Désactive / Active l'antibot",
+        "aliases": ["antibot"],
+        "usage": "antibot [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antichannel": {
+        "name": "antichannel",
+        "description": "Désactive / Active l'antichannel",
+        "aliases": ["antichannel"],
+        "usage": "antichannel [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antieveryone": {
+        "name": "antieveryone",
+        "description": "Désactive / Active l'antieveryone",
+        "aliases": ["antieveryone"],
+        "usage": "antieveryone [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antilink": {
+        "name": "antilink",
+        "description": "Désactive / Active l'antilink",
+        "aliases": ["antilink"],
+        "usage": "antilink [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antispam": {
+        "name": "antispam",
+        "description": "Désactive / Active l'antispam",
+        "aliases": ["antispam"],
+        "usage": "antispam [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "antiwebhook": {
+        "name": "antiwebhook",
+        "description": "Désactive / Active l'antiwebhook",
+        "aliases": ["antiwebhook"],
+        "usage": "antiwebhook [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "deletewebhooks": {
+        "name": "deletewebhooks",
+        "description": "Supprime tous les webhooks du Discord",
+        "aliases": ["deletewebhook", "dwebhooks", "dwebhook"],
+        "usage": "dwebhooks",
+        "perms": "`Whitelist`"
+    },
+    "logsban": {
+        "name": "logsban",
+        "description": "Active / désactive les logs de ban",
+        "aliases": ["logban"],
+        "usage": "logsban [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "logsc": {
+        "name": "logsc",
+        "description": "Active / désactive les logs de création / suppression des salons",
+        "aliases": ["logc"],
+        "usage": "logsc [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "logsjoin": {
+        "name": "logsjoin",
+        "description": "Active / Désactive les logs de join et leave",
+        "aliases": ["logjoin", "logjoins", "logsjoins"],
+        "usage": "logsjoin [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "logsmsg": {
+        "name": "logsmsg",
+        "description": "Active / désactive les logs de suppression / modification des messages",
+        "aliases": ["logmsg", "logmessage", "logmessages", "logsmessage", "logsmessages"],
+        "usage": "logsmsg [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "logsrole": {
+        "name": "logsrole",
+        "description": "Active / Désactive les logs des rôles",
+        "aliases": ["logrole", "logsroles", "logroles"],
+        "usage": "logsroles [on/off]",
+        "perms": "`Whitelist`"
+    },
+    "setavatar": {
+        "name": "setavatar",
+        "aliases": ["setpp", "setavatar"],
+        "description": "Choisis la photo de profil du bot",
+        "usage": "setavatar <lien de l'avatar>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`, `Owner du bot perso`"
+    },
+    "setusername": {
+        "name": "setusername",
+        "aliases": ["setusername"],
+        "description": "Choisis le nom du bot",
+        "usage": "setusername <username>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`, `Owner du bot perso`"
+    },
+    "statut": {
+        "name": "statut",
+        "aliases": ["statut"],
+        "description": "Choisis le message en statut et l'activité du bot",
+        "usage": "statut",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`, `Owner du bot perso`"
+    },
+    "serverlist": {
+        "name": "serverlist",
+        "aliases": ["server", "leaveserver", "leaveserv"],
+        "description": "Affiche les serveurs du bot, possibilité de les faires leaves",
+        "usage": "serverlist",
+        "perms": "`OWNER (du bot premium)`"
+    },
+    "antiw": {
+        "name": "antiw",
+        "description": "Ajout, suppression, list des mots interdits",
+        "aliases": ["blacklistword", "anti-insulte", "antiinsulte", "anti-word"],
+        "usage": "antiw add | remove + <mot>",
+        "perms": "`OWNER (du Discord)`,  `OWNERS (choisis avec la commande)`"
+    }
+    },
+
+    "unvalidEmoji": "Vous n'avez pas saisi d'émoji valide.",
+    "unvalidCaracterEmoji": "Vous n'avez pas le droit d'utiliser des caractères spéciaux pour les noms d'émojis (`é, è, ê...`).",
+    "EmojiAdded": "L'emoji a été ajouté!",
+    "EmojiAddedInformations": "Informations",
+    "EmojiAddedNom": "Nom",
+    "EmojiNormal": "Vous pouvez utiliser des emoji normaux sans les ajouter sur le serveur !",
+
+    "EmbedTitleTooLength": "Titre trop long, opération annulé.",
+    "EmbedDescriptionTooLength": "Description trop longue, opération annulé.",
+    "EmbedFooterTooLength": "Footer trop long, opération annulé.",
+    "EmbedAuthorTooLength": "Nom de l'auteur trop long, opération annulé.",
+    "EmbedWaitEmoji": "Merci d'attendre la fin des réactions...",
+    "EmbedEditAuthor": "Modifier l'auteur",
+    "EmbedEditTitle": "Modifier le titre",
+    "EmbedEditDescription": "Modifier la description",
+    "EmbedEditColor": "Modifier la couleur (code HTML)",
+    "EmbedEditThumbnail": "Modifier le thumbnail",
+    "EmbedEditImage": "Modifier l'image",
+    "EmbedEditField": "Ajoute un field",
+    "EmbedEditFooter": "Modifier le footer",
+    "EmbedEditTimestamp": "Ajoute le timestamp",
+    "EmbedEditCopy": "Copier un embed existant",
+    "EmbedEditApercu": "Affiche un aperçu",
+    "EmbedEditCancel": "Annule la création de l'embed",
+    "EmbedEditSend": "Envoie l'embed",
+    "EmbedQuestionCopy": "Quel est l'ID du salon où vous souhaitez copier l'embed ?",
+    "EmbedErrorChannelCopy": "Salon invalide, opération annulée.",
+    "EmbedQuestionCopyMessage": "Merci d'indiquer l'ID du message de l'embed a copier.",
+    "EmbedErrorCopyMessage": "Message choisis invalide (ou pas dans le salon préciser au dessus), opération annulée.",
+    "EmbedErrorCopy": "Désolé mais je ne peux pas copier l'Embed !",
+    "EmbedAuthorQuestion1": "Merci d'indiquer le texte de l'auteur que vous souhaitez.",
+    "EmbedAuthorQuestion2": "Merci d'indiquer le lien de l'auteur que vous souhaitez.",
+    "EmbedAuthorErrorLink": "Lien invalide, opération annulé.",
+    "EmbedAuthorQuestion3": "Merci d'indiquer l'image de l'auteur que vous souhaitez.",
+    "EmbedAuthorErrorImage": "Image invalide, opération annulé.",
+    "EmbedTitleQuestion": "Merci d'indiquer le titre que vous souhaitez.",
+    "EmbedDescriptionQuestion": "Merci d'indiquer la description que vous souhaitez.",
+    "EmbedColorQuestion": "Merci d'indiquer la couleur que vous souhaitez. (code hexadécimal HTML)",
+    "EmbedThumbnailQuestion": "Merci d'indiquer le thumbnail que vous souhaitez.",
+    "EmbedThumbnailErrorImage": "Image invalide, opération annulé.",
+    "EmbedImageQuestion": "Merci d'indiquer l'image que vous souhaitez.",
+    "EmbedImageErrorImage": "Image invalide, opération annulé.",
+    "EmbedFieldQuestion": "Merci d'indiquer le titre du field que vous souhaitez.",
+    "EmbedFieldQuestionContenu": "Merci d'indiquer le contenu du field que vous souhaitez.",
+    "EmbedFieldQuestionTrueOrFalse": "Merci d'indiquer si le field doit être aligné (true / false).",
+    "EmbedFooterQuestionText": "Merci d'indiquer le texte du footer que vous souhaitez.",
+    "EmbedFooterQuestionImage": "Merci d'indiquer l'image du footer que vous souhaitez.",
+    "EmbedFooterErrorImage": "Image invalide, opération annulé.",
+    "EmbedCancel": "Embed annulé.",
+    "EmbedSend": "Merci d'indiquer le salon où vous souhaitez envoyer l'embed.",
+    "EmbedSendError": "Aucune salon trouvé pour",
+    "EmbedSended": "Embed envoyé avec succès !",
+    "EmbedSendedErrorTime": "Temps écoulé.",
+
+    "LogsServEmbed": "🌐 Logs du serveur :",
+    
+    "MassAddErrorRoleIncorect": "Vous devez entrer un rôle correct !",
+    "MassAddErrorRoleNotFound": "Le rôle n'a pas été trouvé, merci de saisir un rôle valide !",
+    "MassAddErrorRoleHighest": "Le rôle est au dessus du bot, merci de choisir un rôle que le bot pourra attribuer !",
+    "MassAddErrorRoleManaged": "Le rôle que vous avez choisis est géré par Discord (Rôle boosters) ou par un bot, merci de choisir un rôle valide !",
+    "MassAddMessage": "le rôle",
+    "MassAddMessageAdding": "est en train d'être ajouté à tous les membres !",
+    "MassAddMessageAdded": "a été ajouté à tous les membres !",
+
+    "MassRemoveErrorRoleIncorect": "Vous devez entrer un rôle correct !",
+    "MassRemoveErrorRoleNotFound": "Le rôle n'a pas été trouvé, merci de saisir un rôle valide !",
+    "MassRemoveErrorRoleHighest": "Le rôle est au dessus du bot, merci de choisir un rôle que le bot pourra attribuer !",
+    "MassRemoveErrorRoleManaged": "Le rôle que vous avez choisis est géré par Discord (Rôle boosters) ou par un bot, merci de choisir un rôle valide !",
+    "MassRemoveMessage": "le rôle",
+    "MassRemoveMessageAdding": "est en train d'être retiré à tous les membres !",
+    "MassRemoveMessageAdded": "a été retiré à tous les membres !",
+
+    "RoleReactionErrorNoChannel": "La commande a été annulé, le salon n'existe pas.",
+    "RoleReactionErrorNoRole": "Vous devez entrer un rôle correct !",
+    "RoleReactionErrorRoleNotFound": "Le rôle n'a pas été trouvé !",
+    "RoleReactionErrorRoleManaged": "Le rôle que vous avez choisis est géré par Discord (Rôle boosters) ou par un bot, merci de choisir un rôle valide !",
+    "RoleReactionErrorRoleHighest": "Le rôle est au dessus du bot, merci de choisir un rôle que le bot pourra attribuer !",
+    "RoleReactionErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "RoleReactionQuestionChannel": "Merci de préciser l'id ou de mentionner le salon où vous souhaitez faire le rôle réaction.",
+    "RoleReactionQuestionMessage": "Merci de préciser l'id du message où vous souhaitez faire le rôle réaction.",
+    "RoleReactionErrorNoMessage": "Commande annulée, vous n'avez pas choisis un id de message valide (ou pas dans le salon précisé au debut)...",
+    "RoleReactionQuestionReaction": "Merci de préciser la réaction que vous souhaitez ajouter.",
+    "RoleReactionErrorReaction": "La commande a été annulé, l'émoji choisis était invalide, ou non accessible au bot.",
+    "RoleReactionQuestionRole": "Merci de préciser le rôle qui sera ajouté quand quelqu'un cliquera sur l'émoji.",
+    "RoleReactionFinalMessage1": "Vous avez mis en place un rôle réaction sur le message :",
+    "RoleReactionFinalMessage2": "avec la reaction",
+    "RoleReactionFinalMessage3": "qui donnera le rôle :",
+
+    "SoutienInfoTitle": "🌊 Soutien du serveur :",
+    "SoutienInfoRole": "• Rôle soutien :",
+    "SoutienInfoStatut": "• Statut à avoir :",
+
+    "HelpCommandName": "Commande:",
+    "HelpCommandDescription": "Description:", 
+    "HelpCommandUtilisation": "Utilisation:",
+    "HelpCommandPerms": "Permissions:",
+    "descj": "Nombre de commande:",
+    "descjj": "Le prefix du robot sur le serveur:",
+    "tag": "⚙️",
+"tag2": "besoin d'aide ? Mon préfix est",
+    "HelpTitleList": "Page d'aide", 
+    "HelpDescriptionCategoryFun": "Fun", 
+    "HelpDescriptionCategoryUtils": "Utilitaires", 
+    "HelpDescriptionCategoryModeration": "Modération",
+    "HelpDescriptionCategoryConfiguration": "Configuration", 
+    "HelpDescriptionCategoryAdministration": "Administration", 
+    "HelpDescriptionCategoryWhitelist": "Antiraid",
+    "HelpDescriptionPermissionHelp": "Pour connaître les permissions requise pour la commande ",
+    "HelpPremium": "Créateur", 
+
+    "SecurityServEmbed": "🛡️ Sécurité du serveur :", 
+
+    "VocalEmbed1": "Il y a",
+    "VocalEmbed2": "personnes en vocal",
+
+    "ColorErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "ColorErrorBadCode": "Vous n'avez pas choisis un code hexadécimal correct !",
+    "CodeColorSetted1": "Le code couleur à été set sur :",
+    "CodeColorSetted2": "vous pouvez voir un aperçu ci-dessous.",
+
+    "PrefixErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "PrefixErrorNoPrefix": "Vous n'avez pas entrer un prefix correct !",
+    "PrefixErrorLength": "Le prefix doit être compris entre 1 et 5 caractères",
+    "PrefixNewPrefix": "Nouveau prefix :", 
+
+    "SanctionErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "SanctionSetOn": "Le mode de sanction a été set sur :",
+    "SanctionErrorBadSanction": "Vous n'avez pas précisé une sanction correct (`ban | kick | derank`), merci de refaire la commande correctement.",
+
+    "LangErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "LangAlreadySet": "La langue du bot est déjà set sur :",
+    "LangSetOn": "La langue a été set sur :",
+    "LangErrorBadLang": "Vous n'avez pas précisé une sanction correct (`fr | eng`), merci de refaire la commande correctement.",
+
+    "TicketErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "TicketEmbedAuthor": "Ouverture de ticket",
+    "TicketEmbedDescription": "Pour ouvrir un ticket, veuillez réagir à la réaction 🎟️",
+
+    "TempVocalErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "TempVocalCategoryCreate": "VOCAUX TEMPORAIRES",
+    "TempVocalCategoryCreated": "Catégorie `VOCAUX TEMPORAIRES` créé avec succès !",
+    "TempVocalAlreadyCreated": "Le système de tempvocal est déjà en place sur votre serveur.",
+    "TempVocalChannelCreate": "➕・ Crée ton salon",
+    "TempVocalChannelCreated": "Salon `➕・ Crée ton salon` créé avec succès !",
+    "TempVocalAllCreated1": "Tous les salons nécessaire au tempvocal ont été créés.",
+    "TempVocalAllCreated2": "Le salon",
+    "TempVocalAllCreated3": "doit rester dans la catégorie. Vous pouvez cependant modifier leurs noms.",
+    "TempVocalBadCategory": "a été remis dans la bonne catégorie !",
+
+    "SoutienErrorBotNoPerms": "Je n'ai pas la permission pour faire cette commande `MANAGE_ROLES`!",
+    "SoutienErrorBadRole": "Vous devez entrer un rôle correct !",
+    "SoutienErrorRoleNotFound": "Le rôle n'a pas été trouvé, merci de saisir un rôle valide !",
+    "SoutienErrorRoleManaged": "Le rôle que vous avez choisis est géré par Discord (Rôle boosters) ou par un bot, merci de choisir un rôle valide !",
+    "SoutienErrorRoleHighest": "Le rôle est au dessus du bot, merci de choisir un rôle que le bot pourra attribuer !",
+    "SoutienErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "SoutienWaitReaction": "Merci d'attendre la fin des réactions...",
+    "SoutienEmbedChoseRole": "*Choisir le rôle soutien* actuellement :",
+    "SoutienEmbedChoseMessage": "*Choisir le message à avoir en statut* actuellement :",
+    "SoutienEmbedCancel": "*Annuler*",
+    "SoutienErrorUndefined": "Non défini",
+    "SoutienQuestionRole": "Merci d'indiquer le rôle soutien que les membres auront si ils ont le message dans leurs statut.",
+    "SoutienReponseRole1": "Le rôle soutien a été défini avec succès sur :",
+    "SoutienReponseRole2": "vous pouvez aussi faire la commande `soutien-info` pour voir les paramètres défini de la commande",
+    "SoutienQuestionMessage": "Merci d'indiquer le message que les membres devront avoir dans leurs statut pour avoir le rôle soutien.",
+    "SoutienQuestionMessageErrorLength": "Message trop long, commande annulé.",
+    "SoutienReponseMessage": "Le message que les membres devront avoir en statut a été défini sur :", 
+    "SoutienQuestionCancel": "Commande Annulée.",
+    "SoutienErrorTime": "Temps écoulé.",
+
+    "SetupErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "SetupRoleMessage1": "Le rôle",
+    "SetupRoleMessage2": "à été créé, vous pouvez changez son nom.",
+    "SetupChannelMessage": "Le salon",
+    "SetupAlreadyDo": "Le setup à déjà été effectué !",
+    "SetupFinalMessage1": "Le bot à été initialisé !**\n Le salon",
+    "SetupFinalMessage2": "& le rôle",
+    "SetupFinalMessage3": "**ont été créé, Vous pouvez modifier leurs nom !**",
+
+    "SetMuteRoleErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "SetMuteRoleErrorAlreadyThisRole": "Ce rôle est déjà le rôle mute !",
+    "SetMuteRoleErrorInvalidRole": "Vous n'avez pas préciser un rôle valide. Commande annulé",
+    "SetMuteRoleFinalMessage1": "Le rôle",
+    "SetMuteRoleFinalMessage2": "a été choisis en tant que rôle de mute.",
+
+    "SetLogsErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "SetLogsErrorAlreadyThisChannel": "Ce salon est déjà le salon logs !",
+    "SetLogsErrorInvalidChannel": "Vous n'avez pas préciser un salon valide. Commande annulé",
+    "SetLogsFinalMessage1": "Le salon",
+    "SetLogsFinalMessage2": "a été choisis en tant que salon logs.",
+
+    "ballErrorNoQuestion": "Vous n'avez pas précisé votre question !",
+    "ballReponse1": "Oui",
+    "ballReponse2": "Non..",
+    "ballReponse3": "Définitivement",
+    "ballReponse4": "Absolument",
+    "ballReponse5": "Impossible",
+    "ballReponse6": "Très probable",
+    "ballReponse7": "Pas d'avis",
+    "ballReponse8": "Repose ta question !",
+    "ballReponse9": "Bien sûr que OUIIII",
+    "ballFinalResponse1": "Ta question",
+    "ballFinalResponse2": "Ma réponse",
+
+    "PollErrorQuestion": "Entrez un message pour le poll!",
+    "PollCreateBy": "Poll crée par :",
+
+    "BanErrorNoPerson": "Veuillez mentionner la personne que vous souhaitez ban !",
+    "BanNoReason": "Aucune raison fournie.",
+    "BanErrorNoPerms": "Vous n'avez pas la permissions `BAN_MEMBERS` pour faire cette commande !",
+    "BanErrorYourself": "Tu ne peux pas te sanctionner toi même",
+    "BanErrorRoleHighest": "Je n'ai pas la permission pour faire cette commande (l'utilisateur a un rôle au dessus de moi) !",
+    "BanErrorCantBan": "Vous ne pouvez pas ban cet utilisateur !",
+    "BanAction": "**Action :**",
+    "BanAuthor": "**Auteur :**",
+    "BanReason": "**Raison :**",
+
+    "ClearErrorNoPerms": "Vous n'avez pas la permissions `MANAGE_MESSAGES` pour faire cette commande !",
+    "ClearErrorNumber": "Veuillez n'indiquer qu'un nombre !",
+    "ClearErrorMoreCent": "Vous ne pouvez supprimer que 100 messages à la fois !",
+    "ClearFinalMessage": "messages, **Supprimé** avec succès.",
+
+    "KickErrorNoPerson": "Veuillez mentionner la personne que vous souhaitez kick !",
+    "KickErrorNoPerms": "Vous n'avez pas la permissions `KICK_MEMBERS` pour faire cette commande !",
+    "KickErrorCantKick": "Vous ne pouvez pas kick cet utilisateur !",
+
+    "LockErrorNoPerms": "Vous n'avez pas la permissions `MANAGE_CHANNELS` pour faire cette commande !",
+    "LockEmbedLocked": "🔒 Le salon a été verrouillé",
+
+    "MuteErrorNoRole": "Le setup n'a pas été effectué, il n'y a donc pas de muteRole. La commande a été annulée",
+    "MuteErrorNoPerson": "Veuillez mentionner la personne que vous souhaitez mute !",
+    "MuteUserAlreadyMute": "est déjà mute.",
+    "MuteUserOwner": "Vous ne pouvez mute le propriétaire du serveur.",
+
+    "NukeQuestion": "Voulez-vous recréer ce salon ? (y / n)",
+    "NukeRecreated": "Le salon a été recréé !",
+    "NukeCancel": "Annulation...",
+    "NukeErrorResponse": "Réponse invalide.",
+    "NukeErrorTime": "Vous avez pris trop de temps ! Réesayez.",
+
+    "ResetWarnErrorNoPerson":"Veuillez mentionner la personne à qui vous souhaitez reset les avertissements !",
+    "ResetWarnErrorBot": "Le bot ne peut pas avoir d'avertissements",
+    "ResetWarnErrorUserNoAvert": "n'a pas d'avertissements !",
+    "ResetWarnFinalMessage1": "Tous les avertissements de",
+    "ResetWarnFinalMessage2": "ont été réinitialiser !",
+
+    "roleCheckNoPerms": "Vous n'avez pas la permissions `MENTION_EVERYONE` pour faire cette commande !",
+    "roleCheckErrorRole": "Vous n'avez pas entrer un rôle valide",
+    "roleCheckErrorInvalidRole": "Ce rôle n'existe pas",
+    "roleCheckFinalMessage": "personnes ont ce rôle.",
+
+    "WarnErrorNoPerson": "Veuillez mentionner la personne que vous souhaitez avertir !",
+    "WarnErrorBot": "Vous ne pouvez pas avertir un bot !",
+    "WarnErrorYourself": "Vous ne pouvez pas vous avertir vous même !",
+    "WarnErrorUserOwner": "Vous ne pouvez pas avertir le propriétaire de ce serveur !",
+    "WarnErrorNoReason1": "Veuillez donner une raison valable pour avertir ce membre :",
+    "WarnUserLimit": "vous avez atteint la limite de 4 avertissements !",
+    "WarnEmbedFinal1": "a été **averti** !",
+    "WarnEmbedNumber1": "**Nombre de warn :**",
+    "WarnEmbedNumber2": "avertissement(s)",
+
+    "UnmuteErrorNoMention": "Membre non ou mal mentionné.",
+    "UnmuteErrorNoMuted": "n'est pas mute.",
+
+    "UnlockChannel": "🔒 Le salon a été déverrouillé",
+
+    "UnbanNoPerson": "l'utilisateur n'existe pas.",
+
+    "TempmuteErrorBotCant": "Le bot ne peut pas mute ce membre.",
+    "TempmuteFinalMessageTime": "**Temps :**",
+
+    "WhitelistEmbedChannelsTitle": "Whitelist Salons",
+    "WhitelistEmbedChannelsWarn1": "Vous vous apprêtez a whitelist des salons :",
+    "WhitelistEmbedChannelsWarn2": "*Les salons whitelist ne seront pas pris en compte par l'antilink & antispam.*",
+    "WhitelistEmbedChannelsAdd": "Ajoute le salon à la whitelist",
+    "WhitelistEmbedChannelsRemove": "Retire le salon de la whitelist",
+    "WhitelistEmbedChannelsList": "Affiche les salons whitelist",
+    "WhitelistEmbedUsersTitle": "Whitelist Utilisateurs",
+    "WhitelistEmbedUsersWarn1": "Vous vous apprêtez a whitelist des utilisateurs :", 
+    "WhitelistEmbedUsersWarn2": "*Les utilisateurs whitelist ne seront pas pris en compte par **toutes** les sécurités.*",
+    "WhitelistEmbedUsersAdd": "Ajoute l'utilisateur à la whitelist",
+    "WhitelistEmbedUsersRemove": "Retire l'utilisateur de la whitelist",
+    "WhitelistEmbedUsersList": "Affiche les utilisateurs whitelist",
+
+    "OwnerErrorNoMention": "veuillez donner le nom d'une personne a ajouter à la liste des owners.",
+    "OwnerErrorAlreadyWL": "l'utilisateur est déjà dans la liste des owners.",
+    "OwnerErrorNoOwner": "vous n'avez pas la permissions pour faire cette commande, seul l'owner du Discord peut utiliser cette commande !",
+    "OwnerErrorWLNoExist": "l'utilisateur n'existe pas.",
+    "OwnerBadArgs": "Merci d'utiliser une syntaxe correcte :", 
+    "OwnerErrorNoDB": "cet utilisateur n'est pas dans la liste des owners.",
+    "OwnerEmbedMessage1": "l'utilisateur",
+    "OwnerEmbedAdded": "a été ajouté à la liste des owners.",
+    "OwnerEmbedRemoved": "a été retiré de la liste des owners.",
+    "OwnerEmbedListNever": "Aucun utilisateur Owners.",
+    "OwnerEmbedList": "Utilisateurs Owners :",
+
+    "WLUsersErrorNoMention": "veuillez mentionner la personne à ajouter à la whitelist.",
+    "WLUersErrorAlreadyWL": "l'utilisateur est déjà dans la whitelist.",
+    "WLUsersErrorUserNoExist": "l'utilisateur n'existe pas.",
+    "WLUsersErrorNoWL": "cet utilisateur n'est pas dans la whitelist.",
+    "WLUsersErrorNoOwner": "Vous n'êtes pas dans les owners pour faire cette commande !",
+    "WLUsersAdded": "a été ajouté à la whitelist.",
+    "WLUsersRemoved": "a été retiré de la whitelist.",
+    "WlUsersNoUsers": "Aucun utilisateur whitelist.",
+    "WLUsersUsers": "Utilisateurs whitelists :",
+
+    "WLChannelsErrorNoWL": "ce salon n'est pas dans la whitelist.",
+    "WLChannelsErrorNoChannel": "vous n'avez pas donner le nom d'un salon.",
+    "WLChannelsErrorAlready": "le salon est déjà dans la whitelist.",
+    "WLChannelsErrorChannelNoExist": "le salon n'existe pas.",
+    "WlChannelsWordChannel": "le salon",
+    "WLChannelsNoCHannels": "Aucun salon whitelist.",
+    "WLChannelsFinalMessage": "Salons whitelists :", 
+
+    "botinfoCreator": "Créateur du bot",
+    "botinfoDate": "Date de création",
+    "botinfoOnline": "En ligne depuis",
+    "botinfoServers": "Serveurs",
+    "botinfoDiscordJS": "Discord.js",
+    "botinfoRAM": "RAM Utilisée",
+    "botinfoCPU": "Utilisation CPU",
+    "botinfoArchitecture": "Architecture",
+    "botinfoPlateforme": "Plateforme",
+
+    "InformationEmbedTitle": "Informations sur le bot :",
+    "InformationEmbed1": "est présent sur",
+    "InformationEmbed2": "serveurs",
+    "InformationEMbed3": "membres",
+    "InformationEmbed4": "Liens :",
+    "InformationEmbed5": "Discord de Support",
+    "InformationEmbed6": "Invite moi",
+
+    "InviteTitle": "Lien d'invitation du bot",
+
+    "PingTitle": "Latence du bot",
+    "PingEmbed": "Le bot a une latence de",
+
+    "WeatherNoLocalisation": "Vous n'avez pas indiquer une localisation",
+    "WeatherInvalidLocalisation": "Vous n'avez pas indiquer une localisation valide",
+    "WeatherFuseau": "Fuseau horaire",
+    "WeatherTypeDegré": "Type de degré",
+    "WeatherTemp": "Température",
+    "WeatherVent": "Vent",
+    "WeatherTempMin": "Température Minimale",
+    "WeatherHumidité": "Humidité",
+
+    "WarningsEmbed1": "a",
+    "WarningsEmbed2": "avertissement(s)",
+
+    "UserinfoNoUser": "Impossible de trouver cette personne",
+    "UserinfoBadID": "ID de l'utilisateur non valide.",
+    "UserinfoStatutOnline": "En ligne",
+    "UserinfoStatutIdle": "Inactif",
+    "UserinfoStatutDND": "Ne pas déranger",
+    "UserinfoStatutOffline": "Hors-Ligne / Invisble",
+    "UserinfoNo": "Non",
+    "UserinfoYes": "Oui",
+    "UserinfoNom": "Nom d'utilisateur",
+    "UserinfoNoBadge": "Pas de badge",
+    "UserinfoJoinTime": "Rejoint le",
+    "UserinfoAccountCreated": "Compte crée le",
+
+    "ServerinfoEmbedTitle": "Stats general",
+    "ServerinfoThereIs": "Il y a",
+    "ServerinfoMembers": "Membres",
+    "ServerinfoDate": "Date de création",
+    "ServerinfoNBRoles": "Nombres de rôles",
+    "ServerinfoRole": "rôles sur le serveur",
+    "ServerinfoPartner": "Le serveur est partenaire",
+    "ServerinfoNoPartner": "Le Serveur n'est pas encore partenaire !",
+    "ServerinfoBoost": "sur le serveur",
+    "ServerinfoNoBoost": "Il n'y a pas de boosts sur le serveur.",
+    "ServerinfoPartner1": "Partenaire",
+    "ServerinfoNoEmoji": "Il n'y a pas d'emojis",
+
+    "WhitelistPreciseOFFoON": "Veuillez préciser si vous voulez activer (**on**) ou désactiver (**off**)",
+    "WhitelistNoInWL": "Vous n'êtes pas dans la whitelist pour faire cette commande !",
+
+    "AntiBanEnable": "L'Antiban a été activé avec succès.",
+    "AntiBanDisable": "L'Antiban a été désactivé avec succès.",
+    "AntiBanFinalWord": "l'Antiban.",
+
+    "AntiRoleEnable": "L'Antirole a été activé avec succès.",
+    "AntiRoleDisable": "L'Antirole a été désactivé avec succès.",
+    "AntiRoleFinalWord": "l'Antirole",
+
+    "AntiWordEnable": "L'Antiword a été activé avec succès.",
+    "AntiWordDisable": "L'Antiword a été désactivé avec succès.",
+    "AntiWordFinalWord": "l'Antiword",
+
+    "AntiBotEnable": "L'Antibot a été activé avec succès.",
+    "AntiBotDisable": "L'Antibot a été désactivé avec succès.",
+    "AntiBotFinalWord": "l'Antibot.",
+
+    "AntiChannelEnable": "L'antiChannel a été activé avec succès.",
+    "AntiChannelDisable": "L'antiChannel a été désactivé avec succès.",
+    "AntiChannelFinalWord": "l'AntiChannel.",
+
+    "AntiEveryoneEnable": "L'Antieveryone a été activé avec succès.",
+    "AntiEveryoneDisable": "L'Antieveryone a été désactivé avec succès.",
+    "AntiEveryoneFinalWord": "l'Antieveryone.",
+
+    "AntilinkEnable": "L'Antilink a été activé avec succès.",
+    "AntilinkDisable": "L'Antilink a été désactivé avec succès.",
+    "AntilinkFinalWord": "l'Antilink.",
+
+    "AntispamEnable": "L'Antispam a été activé avec succès.",
+    "AntispamDisable": "L'Antispam a été désactivé avec succès.",
+    "AntispamFinalWord": "l'Antispam.",
+
+    "AntiwebhookEnable": "L'Antiwebhook a été activé avec succès.",
+    "AntiwebhookDisable": "L'Antiwebhook a été désactivé avec succès.",
+    "AntiwebhookFinalWord": "l'Antiwebhook.",
+
+    "deletewebhooks": "webhooks ont été supprimés !",
+
+    "LogsBanEnable": "Les logs de ban ont été activé avec succès.",
+    "LogsBanDisable": "Les logs de ban ont été désactivé avec succès.",
+    "LogsBanFinalWord": "les logs de ban.",
+    
+    "LogsCEnable": "Les logs de création / suppression des salons ont été activé avec succès.",
+    "LogsCDisable": "Les logs de création / suppression des salons ont été désactivé avec succès.",
+    "LogsCFinalWord": "les logs de création / suppression de salons.",
+
+    "LogsJoinEnable": "les logs de join et leave ont été activé avec succès.",
+    "LogsJoinDisable": "les logs de join et leave ont été désactivé avec succès.",
+    "LogsJoinFinalWord": "les logs de join et leave.",
+
+    "LogsMessageEnable": "Les logs de suppression / modification des messages ont été activé avec succès.",
+    "LogsMessageDisable": "Les logs de suppression / modification des messages ont été désactivé avec succès.",
+    "LogsMessageFinalWord": "les logs de suppression / modification des messages.",
+
+    "LogsRoleEnable": "les logs des rôles ont été activé avec succès.",
+    "LogsRoleDisable": "les logs des rôles ont été désactivé avec succès.",
+    "LogsRoleFinalWord": "les logs des rôles.",
+
+    "SetAvatarOneHour": "Cette commande ne peut être effectuer qu'une fois par heure.",
+    "SetAvatarInvalidLink": "Merci de choisir un lien d'avatar valide !",
+    "SetAvatarNewAvatar": "Le nouvel avatar du bot est :",
+
+    "SetUsernameFiveHour": "Cette commande ne peut être effectuer qu'une fois toutes les 5 heures.",
+    "SetUsernameInvalid": "Merci de choisir un username valide ! (compris entre 2 et 32 caractères).",
+    "SetUsernameNewName": "Le nouveau nom du bot est :",
+
+    "StatutReact1": "*Choisir le message en statut*, actuellement :",
+    "StatutReact2": "*Choisir l'activité du bot* **(stream, watching, playing...)**, actuellement :", 
+    "StatutReact3": "*Annuler*",
+    "StatutQuestionMessage": "Merci d'indiquer le message que le bot aura en statut.",
+    "StatutMessageLength": "Vous avez choisis un message trop long (supérieur a 20 caractères)",
+    "StatutMessageFinal1": "Le message en statut sur le bot a été set sur :",
+    "StatutMessageFinal2": "vous ne pouvez plus le changer pendant 5 heures.",
+    "StatutEmbed1": "*Met le statut en Listening (écoute)*",
+    "StatutEmbed2": "*Met le statut en Watching (Regarde)*",
+    "StatutEmbed3": "*Met le statut en Playing (Joue)*",
+    "StatutEmbed4": "*Met le statut du bot en Streaming*",
+    "StatutEmbedFinalMessage1": "Le statut du bot a été set sur :",
+    "StatutEmbedFinalMessage2": "Vous ne pouvez plus le changez pendant 5 heures.",
+    "StatutCancel": "Modification de statut annulé.",
+
+    "EventsAete": "a été",
+    "AntiBan": "par l'antiBan pour plus de 3x ban / 1 min.",
+    "AntiBanMotif": "Sécurité anti-ban",
+    "AntiBot": "par l'Anti-BOT.",
+    "AntiBotMotif": "Sécurité anti-BOT",
+    "AntiChannel": "par l'Anti-Channel.",
+    "AntiChannelMotif": "Sécurité anti-CHANNEL",
+    "AntiEveryone": "par l'Anti-Everyone.",
+    "AntiEveryoneMotif": "Sécurité anti-Everyone",
+    "AntilinkNoMuteRole": "Le rôle '🚫・Muted' n'a pas été trouvé, merci de faire la commande",
+    "AntilinkMember": "**Membre :**",
+    "AntilinkMuted": "Vous avez été mute pour envoi de lien(s) !",
+    "AntilinkLogMuted": "Mute pendant **1 heure**.",
+    "AntilinkUnmute": "unmute après **1 heure**.",
+    "AntispamMuted": "Vous avez été mute pour Spam (trop de caractères)!",
+    "AntispamMuted1": "Vous avez été mute pour Spam !",
+    "AntispamCalm": "Veuillez ne pas envoyer de message trop rapidement !",
+    "AntispamCaract": "(trop de caractères)",
+
+    "Antiwebhook": "Un Webhook a été crée / modifié / supprimé par :",
+    "Antiwebhook1": "Il a été automatiquement",
+    "Antiwebhook2": "par le bot. \n le salon à été automatiquement recrée.",
+
+    "Prefix": "Le prefix du bot est :",
+    "Tempvocal": "Salon de",
+    "Ticket1": "Bienvenue dans le support du serveur",
+    "Ticket2": "Pour fermer le ticket appuyer sur la réaction 🔒 ci-dessous !",
+
+    "ChannelCreate": "**Salon crée**:", 
+    "ChannelDelete": "**Salon supprimé**:", 
+    "logBan1": "a été banni du serveur",
+    "logBan2": "mais aucune log n'a pu être trouvé.",
+    "logJoin": "a rejoint le serveur ! \n Compte crée le :", 
+    "logLeave": "a quitté le serveur ! \n Compte crée le :", 
+    "messageDelete1": "**Nouveau message supprimé !** \n **Auteur du message**:", 
+    "messageDelete2": "**Contenu du message**:", 
+    "messageUpdate1": "**Nouveau message modifié par :", 
+    "messageUpdate2": "**Avant**:", 
+    "messageUpdate3": "**Après**:",
+    "roleCreate": "**Role crée**:", 
+    "roleDelete": "**Role supprimé**:", 
+
+    "serverListNoOwner": "vous n'êtes pas owner du bot pour faire cette commande !",
+    "serverListMembers": "membres", 
+    "serverListEmbedTitle": "Liste des serveurs",
+    "serverListMessage": "Pour faire quitter un serveur au bot, cliquer sur la réaction correspondante.",
+    "serverListNotFind": "Le serveur n'a pas été trouvé.",
+    "serverListMTSserv": "Vous ne pouvez pas faire leave le serveur MTS",
+    "serverListCanceled": "Commande annulée",
+
+    "AntiRoleEventRemoved": "a retiré",
+    "AntiRoleEventTo": "a",
+    "AntiRoleEvent1": "et a été",
+    "AntiRoleEventReAdded": "par l'Anti-Rôle, le rôle lui a été re-ajouté par sécurité.",
+    "AntiRoleEventReRemoved": "par l'Anti-Rôle, le rôle lui a été retiré par sécurité.",
+
+    "AntiWordBadMSG": "Mot interdit.",
+    "AntiWordMuted": "Vous avez été mute pendant 1 heure pour mot interdit",
+    "AntiWordBadWord": "Vous n'avez pas préciser de mot à interdire",
+    "AntiWordAlready": "Ce mot est déjà dans la liste des mots interdits",
+    "AntiWordWord": "mot",
+    "AntiWordNoBlacklisted": "Ce mot n'est pas dans la liste des mots interdits",
+    "AntiWordTheWord": "Le mot",
+    "AntiWordAdded": "a été ajouté aux mots interdits",
+    "AntiWordRemoved": "a été retiré aux mots interdits",
+    "AntiWordNothing": "Aucun mot n'est interdit",
+    "AntiWordFinal": "Les mots interdits sont :"
+}
